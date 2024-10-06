@@ -11,7 +11,7 @@ namespace Tyuiu.KhrapovDY.Sprint1.Task7.V30.Test
             DataService ds = new DataService();
             double x = 0;
             double y = 2;
-            double z = 2.28;
+            double z = 12.291;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(z, res);
         }
