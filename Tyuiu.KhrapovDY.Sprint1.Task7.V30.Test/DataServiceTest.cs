@@ -6,11 +6,11 @@ namespace Tyuiu.KhrapovDY.Sprint1.Task7.V30.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 0;
-            double y = 2;
+            double x = 2;
+            double y = 3;
             double z = 12.291;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(z, res);

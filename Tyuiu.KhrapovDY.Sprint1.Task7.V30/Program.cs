@@ -26,7 +26,7 @@ namespace Tyuiu.KhrapovDY.Sprint1.Task7.V30
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* x + e^x + sin x^5 + x^3 / 3^x + y^5 / 5^y                               *");
 
-            int x, y;
+            double x, y;
 
             Console.WriteLine("Введите значение X:");
             x = Convert.ToInt32(Console.ReadLine());
