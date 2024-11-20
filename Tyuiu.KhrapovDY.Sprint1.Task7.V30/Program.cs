@@ -37,8 +37,9 @@ namespace Tyuiu.KhrapovDY.Sprint1.Task7.V30
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x, y) + 0.07);
+            Console.WriteLine(ds.Calculate(x, y));
 
             Console.ReadKey();
         }
     }
+}
